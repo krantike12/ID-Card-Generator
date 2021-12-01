@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card Generator</title>
+</head>
+
+<body class="bodyedit">
+    <div class="container" id="cont">
+        <span class="svgP"> 
+            <a href="http://"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="" fill="blue" class="bi bi-instagram mt-1" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg></a>
+              <span class="text mt-1 py-2">
+              <p>Follow me on Instagram</p>
+            </span>
+        </span>
+        <h3 class="text-center mt-4 py-4 font">ID Card Generator</h3>
+        <div class="row">
+            <div class="col-md-6">
+            <div class="form-group">
+                <label for="" class="mt-4 lbe">Your Full Name</label>
+                <input type="text" class="form-control style" name="" id="fnameF" placeholder="Your Full Name">
+            </div>
+            <div class="form-group">
+                <label for="" class="mt-2 lbe">Your Father's Name</label>
+                <input type="text" class="form-control" name="" id="PnameF" placeholder="Yours Father Name">
+            </div>
+            <div class="form-group">
+                <label for="" class="mt-2 lbe">Your Class and Section</label>
+                <input type="text" class="form-control" name="" id="cnameF" placeholder="Your Class and Section">
+            </div>
+            <div class="form-group">
+                <label for="" class="mt-2 lbe">Your Phone Number</label>
+                <input type="tel" class="form-control" name="" id="tnumberF" placeholder="Your Telephone Number">
+            </div>
+            <div class="form-group">
+                <label for="" class="mt-2 lbe">Your Full Address</label>
+                <input type="text" class="form-control" name="" id="addressF" placeholder="Your Full Address">
+            </div>
+            <div class="form-group">
+                <input type="file" class="form-control " name="" id="picF" multiple>
+                <label for="" class="px-2 mt-2 lbe">Select your profile Pic</label>
+            </div>
+           
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="" class="mt-4 lbe">Your Mother's Name</label>
+                <input type="text" class="form-control" name="" id="MnameF" placeholder="Your Mother's Name">
+            </div>
+            <div class="form-group">
+                <label for="" class="mt-2 lbe">Your Signature</label>
+                <input type="text" class="form-control" name="" id="signF" placeholder="Your Signature">
+            </div>
+            <div class="form-group">
+                <label for="" class="px-2 mt-2 lbe">Select your Father profile Pic</label>
+                <input type="file" class="form-control " name="" id="picF2" multiple>
+                
+            </div>
+            
+        </div>
+        <button type="submit" onclick="donesubmit()" class="btn btn-outline-primary edit" id="btttn">Submit</button>
+    </div>
+</div>
+
+    <!--Now ID card Template-->
+    
+    <div class="cont-2" id="contt-2"> 
+<h3 class="text-center mt-4">G.B.S.S.S Malviya Nagar ID Card</h3>
+    <div class="container-T mt-5">
+        <div class="container-2">
+            <div class="image">
+                <img src="/Users/tclp01/Downloads/111111-modified.png" width="100px" class="rounded flex-start mt-2 ml-4 mx-2" alt="">
+                </div>
+                <h5 id="heading1">Govt. Boys. Senior. Secondary. School</h5>
+                <br>
+                <p id="heading12">Malviya Nagar, New Delhi=110017 Near Pt. Madan Mohan Malviya Hospital</p>
+                <p id="para12">School Id : 1923010</p>
+        </div>
+<hr id="hr1">
+
+<div class=""><img id="imgedit" src="https://img.favpng.com/8/24/4/avatar-royalty-free-png-favpng-6920SU0BFdaEZTMCMSsrTTPws.jpg" alt=""></div>
+<div class=""><img id="imgedit1" src="https://img.favpng.com/8/24/4/avatar-royalty-free-png-favpng-6920SU0BFdaEZTMCMSsrTTPws.jpg" alt=""></div>
+<div class="text-container"><span class="inline-block"><p id="fnameS"  >Your Full Name is :</p></span>
+<span><p id="nameT">Satyam Kumar Singh</p></span>
+<span class="inline-block"><p id="fnameS"  >Your Father's Name is :</p></span>
+<span><p id="pnameT">Dilip Kumar Singh</p></span>
+<span class="inline-block"><p id="fnameS"  >Your Mother's Name is :</p></span>
+<span><p id="mnameT">Bindu Devi</p></span>
+<span class="inline-block"><p id="fnameS"  >Student of Class & Sec :</p></span>
+<span><p id="cnameT">10th F</p></span>
+<span class="inline-block"><p id="fnameS"  >Your Full Address :</p></span>
+<span><p id="snameT">A-31 FF Panchsheel Vihar</p></span>
+<span class="inline-block"><p id="fnameS">Your Phone Number :</p></span>
+<span><p id="telnoT">+91 8800761423</p></span>
+<div class="small-para">
+    <p>Session 2021-2022</p>
+</div>
+
+</div>
+<div class="fnameT1">
+    <p id="fnameT2">Satyam Kumar Singh</p>
+    <p id="classt2">10th C</p>
+</div>
+
+<div class="sign">
+   <p id="signt">Satyam Kr. Singh</p>
+</div>
+
+
+
+
+</div>
+
+    <button type="submit" onclick="printID()" class="btn btn-outline-primary bttn ">Print</button>
+    <button type="submit" onclick="downloadpdf()" class="btn btn-outline-secondary btttn2 mt-1">Download Pdf</button>
+
+  
+</div>
+   
+   
+   
+   
+   
+   
+    <script src="style.js"></script>
+    <script src="html2pdf.bundle.min.js"></script>
+    <!--JS Bundle-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

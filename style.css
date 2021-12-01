@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cedarville+Cursive&family=Comforter&family=Forumdisplay=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
+.form-control{
+    width: 300px;
+}
+.container{
+    display: visible;
+}
+
+.font{
+    font-family: 'Comforter', cursive;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+
+.text{
+    font-family: 'Acme', sans-serif;
+    display: inline-block;
+}
+.btttn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 500px;
+margin-top: 4px;
+}
+
+.edit{
+    margin-top: -8px;
+    margin-bottom: 8px;
+    margin-left: 500px;
+}
+
+.lbe{
+    font-family: 'Acme', sans-serif;
+}
+.bodyedit{
+    background-color: #cef2f8a2
+}
+
+.container{
+    background-color: #0099ff71;
+    height: max-content;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    backface-visibility: visible;
+    position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+border: 2px solid black;
+border-bottom: blue;
+border-top: blue;
+border-radius: 5px;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+
+
+  #fnameF , #PnameF, #cnameF, #tnumberF, #addressF, #picF ,#MnameF, #signF{
+      font-family: 'Acme', sans-serif;
+  }
+
+
+.container-T{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 150px;
+   border-radius: 10px;
+width: 600px;
+height: 400px;
+background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm209-kul-04_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=98c963e0cd476b607a5ee57537b52faa);
+border: 2px solid black;
+}
+
+
+.image{
+ width: 100px;
+ margin-left: 4ßpx;
+ 
+}
+#hr1{
+    margin-top : -0.6rem;
+    border: -1px solid black;
+}
+#heading1{
+    text-align: center;
+    margin-top: -93px;
+    margin-left: 138px;
+    margin-right: 63px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-2{
+    height: 120px;
+border: -1px solid black;
+}
+
+#heading12{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -35px;
+    margin-left: 138px;
+    margin-right: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#para12{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -15px;
+    margin-left: 138px;
+    margin-right: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#fnameS{
+font-size: 20;
+    margin-left: 20px;
+    font-family: 'Forum', cursive;
+
+}
+#nameT, #cnameT, #mnameT, #pnameT, #snameT, #telnoT{
+    font-size: 1rem;
+    float: right;
+    text-align: center;
+    margin-right: 250px;
+    font-weight: bold;
+    margin-top: -39px;
+    font-family: 'Forum', cursive;
+}
+
+.bttn{
+    margin-top: 20px;
+    margin-left: 600px;
+    
+}
+
+#imgedit{
+  margin-left: 480px;
+  width: 100px;
+  display: inline-block;
+  /*border: 2px solid black;*/
+}
+#imgedit1{
+    margin-top: -132px;
+    margin-left: 370px;
+    width: 100px;
+    display: inline-block;
+    /*border: 2px solid black;*/
+  }
+
+.text-container{
+    margin-top: -130px;
+}
+
+.small-para{
+    margin-left: 240px;
+    font-family: cursive;
+
+}
+
+.fnameT1{
+    font-family: cursive;
+    margin-left: 400px;
+    margin-top: -160px;
+}
+
+#classt2{
+    margin-left: 50px;
+    margin-top: -20px;
+    
+
+}
+
+#signt{
+    font-family: 'Cedarville Cursive', cursive;
+    margin-left: 410px;
+    margin-top: 20px;
+    font-size: 1 rem;
+
+}
+
+
+.cont-2{
+display: none;
+}
