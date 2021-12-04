@@ -24,8 +24,11 @@ console.log(reader1.result)
 //setting on template
 reader.onloadend = function(){
     document.getElementById('imgedit').src = reader.result;
-    document.getElementById('imgedit1').src = reader1.result;
 }
+
+
+    reader1.onloadend=function(){document.getElementById('imgedit1').src = reader1.result;}
+
 container.style.display="none"
 
 

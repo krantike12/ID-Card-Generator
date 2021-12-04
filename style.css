@@ -5,7 +5,7 @@
     width: 300px;
 }
 .container{
-    display: visible;
+    /*display: visible;*/
 }
 
 .font{
@@ -90,7 +90,7 @@ border: 2px solid black;
 
 .image{
  width: 100px;
- margin-left: 4ßpx;
+ margin-left: 4px;
  
 }
 #hr1{
